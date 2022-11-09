@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "license": "MIT",
+    "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+    "scripts": {
+        "build": "tsx scripts/build.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "tsx": "^3.11.0"
+    }
+}
