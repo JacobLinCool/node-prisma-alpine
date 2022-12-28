@@ -52,7 +52,7 @@ jobs:
                   push: true
 
             - name: Add Repo To Head Of README
-              run: echo "See https://github.com/JacobLinCool/node-prisma-alpine\n\n---\n\n" | cat - README.md > tmp && mv tmp README.md
+              run: echo $'See https://github.com/JacobLinCool/node-prisma-alpine\n\n---\n\n' | cat - README.md > tmp && mv tmp README.md
 
             - name: Update Docker Hub README
               uses: peter-evans/dockerhub-description@v3
