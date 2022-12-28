@@ -2,9 +2,14 @@
 
 This repository provides `node:lts-alpine` + `prisma` images for `amd64` and `arm64` architectures.
 
-You can simply pull the image from [`jacoblincool/node-prisma-alpine:<prisma-version>`](https://hub.docker.com/r/jacoblincool/node-prisma-alpine) ([supported tags](https://hub.docker.com/r/jacoblincool/node-prisma-alpine/tags)).
+You can simply pull the image from [`jacoblincool/node-prisma-alpine:<prisma-version>`](https://hub.docker.com/r/jacoblincool/node-prisma-alpine) ([supported tags](https://hub.docker.com/r/jacoblincool/node-prisma-alpine/tags?ordering=name)).
 
 Check out [Dockerfile](Dockerfile) for more details.
+
+## Prebuilt Images
+
+<!-- TAGS -->
+<!-- /TAGS -->
 
 ## Build Script
 

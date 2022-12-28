@@ -43,3 +43,23 @@ jobs:
 
             - name: Build
               run: pnpm build "${{ github.event.inputs.version }}"
+
+            - name: Update README
+              run: pnpm update-readme
+
+            - name: Commit
+              uses: EndBug/add-and-commit@v9
+              with:
+                  default_author: github_actions
+                  message: "chore: update tags"
+                  push: true
+
+            - name: Add Repo To Head Of README
+              run: echo "See https://github.com/JacobLinCool/node-prisma-alpine\n\n---\n\n" | cat - README.md > tmp && mv tmp README.md
+
+            - name: Update Docker Hub README
+              uses: peter-evans/dockerhub-description@v3
+              with:
+                  username: ${{ secrets.DOCKERHUB_USERNAME }}
+                  password: ${{ secrets.DOCKERHUB_TOKEN }}
+                  repository: jacoblincool/node-prisma-alpine
