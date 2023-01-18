@@ -9,6 +9,7 @@ Check out [Dockerfile](Dockerfile) for more details.
 ## Prebuilt Images
 
 <!-- TAGS -->
+- 4.9.0 (72.5 MB) - `docker pull jacoblincool/node-prisma-alpine:4.9.0`
 - 4.8.0 (72.2 MB) - `docker pull jacoblincool/node-prisma-alpine:4.8.0`
 - 4.7.1 (92.9 MB) - `docker pull jacoblincool/node-prisma-alpine:4.7.1`
 - 4.7.0 (92.9 MB) - `docker pull jacoblincool/node-prisma-alpine:4.7.0`
