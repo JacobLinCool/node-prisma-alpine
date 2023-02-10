@@ -17,6 +17,7 @@ Check out [Dockerfile](Dockerfile) for more details.
 - 4.6.0 (93.0 MB) - `docker pull jacoblincool/node-prisma-alpine:4.6.0`
 - 4.5.0 (93.2 MB) - `docker pull jacoblincool/node-prisma-alpine:4.5.0`
 - 4.4.0 (96.7 MB) - `docker pull jacoblincool/node-prisma-alpine:4.4.0`
+- 4.10.1 (73.3 MB) - `docker pull jacoblincool/node-prisma-alpine:4.10.1`
 - 4.10.0 (73.3 MB) - `docker pull jacoblincool/node-prisma-alpine:4.10.0`
 <!-- /TAGS -->
 
