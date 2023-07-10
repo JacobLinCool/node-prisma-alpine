@@ -44,6 +44,9 @@ jobs:
             - name: Build
               run: pnpm build "${{ github.event.inputs.version }}"
 
+            - name: Pull
+              run: git pull
+
             - name: Update README
               run: pnpm update-readme
 
